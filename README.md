@@ -1,4 +1,3 @@
-# unpaired-image-to-image-translation
+# Signal-to-Noise Ratio Generative Adversarial Network
 
-CycleGAN/DualGAN/DiscoGAN/UNIT
-Metrics: FID/KID/IS
+This project describes the SNRGAN model, which introduce 4 noise into real source domain, real target domain, fake source domain, and fake target domain, respectively.
