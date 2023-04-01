@@ -2,6 +2,10 @@
 
 This project describes the SNRGAN model, which introduce 4 noise into real source domain, real target domain, fake source domain, and fake target domain, respectively. This project is modified from junyanz/pytorch-CycleGAN-and-pix2pix project. 
 
+
+## Model Introduction
+The SNRGAN introduces 4 noises to increase the robustness of the image translation and also improve the quality of the converted images. This framework is utilized in OCT and H&E image translation, which can not only prevent the artifacts generated in fake OCT images but also enhance the translation accuracy for H&E images.
+
 ## Dataset format
 You should check out the size of A domain images are the same with B domain image.
 
