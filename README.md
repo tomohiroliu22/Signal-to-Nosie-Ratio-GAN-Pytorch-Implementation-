@@ -1,4 +1,6 @@
 # Signal-to-Noise Ratio Generative Adversarial Network
+This project is used to implement the SNRGAN in 
+[Toward cell nuclei precision between OCT and H&E images translation using signal-to-noise ratio cycle-consistency]
 
 This project describes the SNRGAN model, which introduce 4 noise into real source domain, real target domain, fake source domain, and fake target domain, respectively. This project is modified from junyanz/pytorch-CycleGAN-and-pix2pix project. 
 
@@ -27,4 +29,17 @@ python train.py --dataroot ./[your own path]/dataset --name [your model name] --
 
 ```
 python test.py --dataroot ./[your own path]/dataset --name [your model name] --model cycle_gan --noise1 'YES' --noise2 'YES' --noise3 'YES' --noise4 'YES'
+```
+
+## Citation
+Please cite this bibtex if you use this repository
+```
+@article{liu2023toward,
+  title={Toward cell nuclei precision between OCT and H\&E images translation using signal-to-noise ratio cycle-consistency},
+  author={Liu, Chih-Hao and Fu, Li-Wei and Chen, Homer H and Huang, Sheng-Lung},
+  journal={Computer Methods and Programs in Biomedicine},
+  pages={107824},
+  year={2023},
+  publisher={Elsevier}
+}
 ```
