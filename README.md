@@ -1,4 +1,4 @@
-# Signal-to-Noise Ratio Generative Adversarial Network
+# Toward Cell Nuclei Precision between OCT and H&E Images Translation using Signal-to-Noise Ratio Cycle-consistency
 This project is used to implement the SNRGAN in  **Toward cell nuclei precision between OCT and H&E images translation using signal-to-noise ratio cycle-consistency**.
 
 Link: https://www.sciencedirect.com/science/article/pii/S016926072300490X?dgcid=rss_sd_all
